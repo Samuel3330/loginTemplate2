@@ -10,7 +10,7 @@ const Login = () => {
   const [focus2, onFocus2] = useState(false);
   return (
     <section className="w-full overflow-hidden relative">
-      <div className="w-full h-[100vh] overflow-hidden relative">
+      <div className="w-full min-h-[100vh] overflow-hidden relative">
         <div
           className={`bg-hero w-[800px] h-[100vh] bg-no-repeat bg-contain absolute transition-all duration-500 top-[100px] left-[700px]`}
         ></div>
@@ -20,7 +20,7 @@ const Login = () => {
         <div className="w-36 h-36 rounded-full bg-[#F7F7F9] shadow-inset absolute bottom-2/3 left-[600px]"></div>
       </div>
 
-      <div className="absolute flex flex-col max-md:backdrop-blur-sm justify-around items-center w-full md:w-[500px] h-[100vh] md:bg-white top-0 shadow-2xl">
+      <div className="absolute flex flex-col max-md:backdrop-blur-sm justify-around items-center w-full md:w-[500px] min-h-[100vh] md:bg-white top-0 left-0 shadow-2xl">
         <div className="flex gap-2 justify-start items-center w-full p-10">
           <img src="espacialComp.png" alt="" className="w-20  " />
           <h1 className="text-black font-semibold font-body text-2xl">
